@@ -29,7 +29,7 @@ dir_root = os.path.dirname(os.path.abspath(__file__))
 file_test = "eicar.com"
 
 # import config
-with open("C:\\Projects\\ClamPsy\\config.json", "r") as f:
+with open(dir_root + "\\config.json", "r") as f:
     print f.name
     config = json.load(f)
 
